@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: evsa_dashboard_api
+  profiles:
+    active: dev
+
+server:
+  port: 8080
+
+---
+
+spring:
+  application:
+    name: evsa_dashboard_api
+  profiles:
+    active: prod
+
+server:
+  port: 8080

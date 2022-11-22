@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="evsa_backend:war">
+    <output-path>$PROJECT_DIR$/evsa_backend/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>evsa_backend</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="evsa_backend-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="evsa_backend:war exploded" />
+    </root>
+  </artifact>
+</component>
