@@ -1,0 +1,17 @@
+<!--?? ?? ?-->
+server:
+  servlet:
+    encoding:
+      force-response: true
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: localhost
+    username: root
+    password: 1q2w3e4r
+  jpa:
+    show-sql: True
+    hibernate:
+      ddl-auto: create
+
+
